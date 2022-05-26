@@ -1,0 +1,18 @@
+:root {
+  --black: #000000;
+  --primary: #0f56b3;
+  --blue-bg: #C5DCFA;
+  --grey: #787878;
+  --white: #ffffff;
+}
+
+body {
+  color: var(--primary);
+  font-family: 'Manrope', sans-serif;
+}
+
+h2{
+  color: var(--blue-bg);
+
+}
+
