@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ud965r');
+  src:  url('../fonts/icomoon.eot?ud965r#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ud965r') format('truetype'),
+    url('../fonts/icomoon.woff?ud965r') format('woff'),
+    url('../fonts/icomoon.svg?ud965r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-property-archive:before {
+  content: "\e900";
+}
+.icon-property-book:before {
+  content: "\e901";
+}
+.icon-property-clock:before {
+  content: "\e902";
+}
+.icon-property-mail:before {
+  content: "\e903";
+}
+.icon-property-menu:before {
+  content: "\e904";
+}
+.icon-property-send:before {
+  content: "\e905";
+}
+.icon-property-star:before {
+  content: "\e906";
+}
+.icon-property-trash:before {
+  content: "\e907";
+}
