@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,73 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="./icons/Property 1=Menu.svg">
   <title>Sidebar</title>
 </head>
+
 <body>
-  <h1>Sidebar</h1>
-  <p>Un Sidebar es un componente utilizado constantemente en todo tipo de sitios web, en este reto deberás de aprender a construirlo a lujo de detalle y añadirle vida con interacciones.</p>
-  <h2>No te rindas</h2>
-  <h3><a href="https://leonidasesteban.com/" target="_blank">leonidasesteban.com</a></h3>
-  <h4><a href="https://leonidasesteban.com/proyectos" target="_blank">leonidasesteban.com/proyectos</a></h4>
-  <h5><a href="https://leonidasesteban.com/proyectos/todos" target="_blank">leonidasesteban.com/proyectos/todos</a></h5>
-<Script src="./js/index.js">
-</Script>
+  <div id="main-sidebar" class="sidebar ">
+    <div class="toggle-menu ">
+      <button class="toggle-menu--button "  >
+        <i class="icon-property-menu toggle-menu--icon "> </i>
+      </button>
+      <div class="toggle-menu--logo">
+        <img src="./images/Logo.png" alt="logo">
+      </div>
+      <div class="toggle-menu--title">
+        <h2>No te Rindas</h2>
+      </div>
+    </div>
+    <ul class="main-menu">
+      <li class="main-menu-item">
+        <a href="#" class="main-menu--link">
+          <i class="icon-property-archive main-menu--icon "> </i>
+          Recibidos
+        </a>
+      </li>
+      <li class="main-menu-item">
+        <a href="#" class="main-menu--link">
+          <i class="icon-property-star main-menu--icon "> </i>
+          Destacados
+        </a>
+      </li>
+      <li class="main-menu-item">
+        <a href="#" class="main-menu--link">
+          <i class="icon-property-clock main-menu--icon"> </i>
+          Pospuestos
+        </a>
+      </li>
+      <li class="main-menu-item">
+        <a href="#" class="main-menu--link">
+          <i class="icon-property-send main-menu--icon"> </i>
+          Enviados
+        </a>
+      </li>
+    </ul>
+    <ul class="main-menu">
+      <div><span class="main-menu-span">Categorias</span></div>
+      <li class="main-menu-item">
+        <a href="#" class="main-menu--link">
+          <i class="icon-property-mail main-menu--icon"> </i>
+          Todos
+        </a>
+      </li>
+      <li class="main-menu-item">
+        <a href="#" class="main-menu--link">
+          <i class="icon-property-trash main-menu--icon"> </i>
+          Papelera
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section class="section ">
+
+  </section>
+
+  <Script src="./js/script.js">
+  </Script>
 
 
 </body>
+
 </html>
