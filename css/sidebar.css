@@ -1,0 +1,14 @@
+.sidebar {
+  position: fixed;
+  top: 8px;
+  left: -184px; /*este quedan 64px */
+  inline-size: 248px;
+  block-size: 100vh;
+  background: var(--white);
+  transition: transform 0.3s;
+}
+
+
+.sidebar.active{
+  left: 0;
+}

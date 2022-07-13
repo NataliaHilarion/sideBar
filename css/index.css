@@ -1,4 +1,9 @@
 @import url(./icons.css);
+@import url(./sidebar.css);
+@import url(./section.css);
+@import url(./main-menu.css);
+@import url(./toggle.css);
+
 
 :root {
   --black: #000000;
@@ -11,13 +16,7 @@
 body {
   color: var(--primary);
   font-family: 'Manrope', sans-serif;
-}
+  margin: 0;
 
-h2{
-  color: var(--blue-bg);
-}
 
-button i{
-  font-size: 15px;
 }
-

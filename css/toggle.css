@@ -1,0 +1,42 @@
+.toggle-menu{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.toggle-menu--button{
+  border: none;
+  background-color: var(--white);
+  padding: 0 0;
+  cursor: pointer;
+  transform: translateX(184px);
+    /*este quedan 64px */
+}
+
+.toggle-menu--button.active{
+  transform: translateX(0);
+}
+
+.toggle-menu--icon{
+  font-size: 24px;
+  font-weight: 800;
+  padding: 17px 14px;
+
+}
+
+.toggle-menu--logo img{
+  display: block;
+  margin: auto;
+  inline-size: 24px;
+  block-size: 24px;
+}
+
+.toggle-menu--title h2{
+  font-size: 16px;
+  color: var(--black);
+  font-weight: 800;
+  margin: 0;
+  line-height: 24px;
+  padding: 12px 8px;
+}
